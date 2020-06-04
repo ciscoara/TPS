@@ -38,13 +38,38 @@
   /* First image (Logo. Full height) */
   #home {
 
-
-    background-image: url("./assest/images/final/GROUND THAW LAYOUT.jpg");
-    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
     background-size: cover;
-    min-height: 100%;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 15s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url("./assest/images/final/GROUND THAW LAYOUT.jpg");
 
+  }
 
+  @keyframes slideBg {
+    0% {
+      background-image: url("./assest/images/final/GROUND THAW LAYOUT.jpg");
+
+    }
+
+    50% {
+      background-image: url("./assest/images/carousel/JacksonLeroyOHTEMPResidential.jpg");
+
+    }
+
+    75% {
+      background-image: url("./assest/images/carousel/McArthurHomes.jpg");
+
+    }
+
+    100% {
+      background-image: url("./assest/images/final/GROUND THAW LAYOUT.jpg");
+
+    }
   }
 
   .logo {
@@ -145,280 +170,296 @@
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">OUR SERVICES</span>
     </div>
     <!-- Service List -->
-      <div class="w3-col m3 w3-margin-bottom">
-        <div class="w3-light-grey">
-          <img src="./assest/images/final/FuelTruck.jpg" alt="Fuel" style="width:100%" >
-          <div class="w3-container">
-            <h3>Fueling</h3>
-            <p>Temporary Power Services offers fuel service delivery when and where you need it. Having years of
-              experience in fueling construction sites and yards we are prepared and ready to be your regular scheduled
-              or
-              one time need for fuel service.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col m3 w3-margin-bottom">
-        <div class="w3-light-grey">
-          <img src="./assest/images/carousel/McArthurHomes.jpg" alt="TP" style="width:100%">
-          <div class="w3-container">
-            <h3>Temporary Power</h3>
-            <p class="w3-opacity">Overhead Solutions</p>
-            <p>The most cost efficient solution for temporary power is usually through overhead distribution.
-              Our temp power teams have the experience, equipment and resources to handle any size
-              project. Our engineering teams design the system to meet your specifications and power
-              requirements while working within your budget and time frame. No project is to big or too small.</p>
-            <p class="w3-opacity">Underground Solutions</p>
-            <p>For projects that require temporary power to be routed underground, our temp power team has
-              you covered. With in-house trenching, conduit and wire-pulling crews, we’ll get you connected
-              quickly, safely and on time. Combined with our in-house engineering design group, we can
-              provide an underground power solution from start to finish.</p>
-            <p class="w3-opacity">Ground Cord Solutions</p>
-            <p>From 400 amp caged load centers and spider boxes to remote generator connections,
-              Temporary Power Services has the right solution to bring you power when you need it, where
-              you need it.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col m3 w3-margin-bottom">
-        <div class="w3-light-grey">
-          <img src="./assest/images/final/G1 Bringhurst Sales Trailer - EDGE 1.jpg" alt="Generator"
-            style="width: 100%;">
-          <div class="w3-container">
-            <h3>Generators</h3>
-            <p>We offer generators from 15 kilowatt to 4 Megawatts that we can deliver and refuel depending
-              on your needs. Let us know the scope of your project today and we will get you the power you
-              need.</p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col m3 w3-margin-bottom">
-        <div class="w3-light-grey">
-          <img src="./assest/images/final/tps equipment.jpeg" alt="Equipment Rental" style="width:100%">
-          <div class="w3-container">
-            <h3>Equipment Rental</h3>
-            <p>We offer many types of construction equipment with a specialty in heating equipment. Let us
-              know today your scope of the project and we will deliver and setup on your job site.</p>
-            <p class="w3-opacity">Available Equipment:</p>
-            <p>Forklift, Propane Heat, Ground Thaw, Electric Heat, Diesel Heat, Earth Moving (skid steer), and
-              Concrete.</br>
-          </div>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="./assest/images/final/FuelTruck.jpg" alt="Fuel" style="width:100%">
+        <div class="w3-container">
+          <h3>Fueling</h3>
+          <p>Temporary Power Services offers fuel service delivery when and where you need it. Having years of
+            experience in fueling construction sites and yards we are prepared and ready to be your regular scheduled
+            or
+            one time need for fuel service.</p>
         </div>
       </div>
     </div>
-
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-      <div class="w3-col m2 w3-section">
-        <span class="w3-xlarge">31+</span><br>
-        Partners
-      </div>
-      <div class="w3-col m2 w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done In UT
-      </div>
-      <div class="w3-col m2 w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Projects Done In CO
-      </div>
-      <div class="w3-col m2 w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Fuel Tanks
-      </div>
-      <div class="w3-col m2 w3-section">
-        <span class="w3-xlarge">150K+</span><br>
-        Gallons Refuel
-      </div>
-      <div class="w3-col m2 w3-section">
-        <span class="w3-xlarge">1</span><br>
-        Homes Powered
-      </div>
-    </div>
-    <!-- Second Parallax Image with Projects Text -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min">
-      <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">PROJECTS</span>
-      </div>
-    </div>
-
-    <!-- Container (Project Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="projects">
-      <h3 class="w3-center">OUR WORK</h3>
-      <p class="w3-center"><em>Click on the images to make them bigger</em></p><br>
-
-      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-      <div class="w3-row-padding w3-center">
-        <div class="w3-col m3">
-          <img src="./assest/images/final/GroundThawHeaters.jpg" style="width:100%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="Ground Thaw Heaters">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="./assest/images/final/CommercialTP.jpg" style="width:100%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="Commercial Temporary Power">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="./assest/images/final/480Volt.jpg" style="width:80%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="480 Volt Disconnect. -Commercial">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="./assest/images/final/Overhead400.jpg" style="width:80%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="Overhead 400 Amp 480 Volt 3 phase CT Meter System">
-        </div>
-      </div>
-
-      <div class="w3-row-padding w3-center w3-section">
-        <div class="w3-col m3">
-          <img src="./assest/images/final/G1 Bringhurst Sales Trailer - EDGE 4.jpg" style="width:100%"
-            onclick="onClick(this)" class="w3-hover-opacity" alt="Generator Rental, Edge Homes, Utah">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="./assest/images/final/CT Meter Base.jpg" style="width:80%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="CT Meter Base">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="./assest/images/final/TPS - SS1.jpg" style="width:100%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="Equipment Rental">
-        </div>
-
-        <div class="w3-col m3">
-          <img src="./assest/images/carousel/HSFarm.jpg" style="width:100%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="">
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="./assest/images/carousel/McArthurHomes.jpg" alt="TP" style="width:100%">
+        <div class="w3-container">
+          <h3>Temporary Power</h3>
+          <p class="w3-opacity">Overhead Solutions</p>
+          <p>The most cost efficient solution for temporary power is usually through overhead distribution.
+            Our temp power teams have the experience, equipment and resources to handle any size
+            project. Our engineering teams design the system to meet your specifications and power
+            requirements while working within your budget and time frame. No project is to big or too small.</p>
+          <p class="w3-opacity">Underground Solutions</p>
+          <p>For projects that require temporary power to be routed underground, our temp power team has
+            you covered. With in-house trenching, conduit and wire-pulling crews, we’ll get you connected
+            quickly, safely and on time. Combined with our in-house engineering design group, we can
+            provide an underground power solution from start to finish.</p>
+          <p class="w3-opacity">Ground Cord Solutions</p>
+          <p>From 400 amp caged load centers and spider boxes to remote generator connections,
+            Temporary Power Services has the right solution to bring you power when you need it, where
+            you need it.</p>
         </div>
       </div>
     </div>
-
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-      <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
-          class="fa fa-remove"></i></span>
-      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-        <img id="img01" class="w3-image">
-        <p id="caption" class="w3-opacity w3-large"></p>
-      </div>
-    </div>
-
-    <!-- Third Parallax Image with Portfolio Text -->
-    <div class="bgimg-3 w3-display-container w3-opacity-min">
-      <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-      </div>
-    </div>
-    <!-- Container (About Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="about">
-      <h3 class="w3-center">ABOUT US</h3>
-      <p class="w3-center"><em>“Temporary Power Services was the first company of its kind in Utah. It has been locally
-          owned and operated since 1993. It has become the largest temporary power provider due
-          to the reliable, secure and low cost services that have been provided to thousands of
-
-          construction projects in Utah and the surrounding states. We take pride in knowing we
-          have helped build Utah’s best homes and buildings using our power services.”</p>
-      <div class="w3-row">
-        <div class="w3-col m6 w3-center w3-padding-large">
-          <img src="./assest/images/final/TPS_icon.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
-            alt="Photo of company" height="200">
-        </div>
-
-        <!-- Hide this text on small devices -->
-        <div class="w3-col m6 w3-hide-small w3-padding-large">
-          <p>We specialize in supplying power to job sites on time and budget with a secure and reliable power source
-            that can keep up with your construction needs. Our experienced team is responsive and professional. Call us
-            today to schedule your temporary power installation!</p>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="./assest/images/final/G1 Bringhurst Sales Trailer - EDGE 1.jpg" alt="Generator" style="width: 100%;">
+        <div class="w3-container">
+          <h3>Generators</h3>
+          <p>We offer generators from 15 kilowatt to 4 Megawatts that we can deliver and refuel depending
+            on your needs. Let us know the scope of your project today and we will get you the power you
+            need.</p>
         </div>
       </div>
     </div>
-
-    <!-- Fourth Parallax Image with Projects Text -->
-    <div class="bgimg-4 w3-display-container w3-opacity-min">
-      <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">LOCATION</span>
+    <div class="w3-col m3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="./assest/images/final/tps equipment.jpeg" alt="Equipment Rental" style="width:100%">
+        <div class="w3-container">
+          <h3>Equipment Rental</h3>
+          <p>We offer many types of construction equipment with a specialty in heating equipment. Let us
+            know today your scope of the project and we will deliver and setup on your job site.</p>
+          <p class="w3-opacity">Available Equipment:</p>
+          <p>Forklift, Propane Heat, Ground Thaw, Electric Heat, Diesel Heat, Earth Moving (skid steer), and
+            Concrete.</br>
+        </div>
       </div>
     </div>
-    <!-- Container (Contact Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="contact">
-      <h3 class="w3-center">Get In Touch With Us!</h3>
-      <!-- <p class="w3-center"><em>We want your feedback!</em></p> -->
+  </div>
 
-      <div class="w3-row w3-padding-32 w3-section">
-        <div class="w3-col m4 w3-container">
-          <img src="./assest/images/map.png" class="w3-image w3-round" style="width:100%">
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-col m2 w3-section">
+      <span class="w3-xlarge">31+</span><br>
+      Partners
+    </div>
+    <div class="w3-col m2 w3-section">
+      <span class="w3-xlarge">55+</span><br>
+      Projects Done In UT
+    </div>
+    <div class="w3-col m2 w3-section">
+      <span class="w3-xlarge">89+</span><br>
+      Projects Done In CO
+    </div>
+    <div class="w3-col m2 w3-section">
+      <span class="w3-xlarge">150+</span><br>
+      Fuel Tanks
+    </div>
+    <div class="w3-col m2 w3-section">
+      <span class="w3-xlarge">150K+</span><br>
+      Gallons Refuel
+    </div>
+    <div class="w3-col m2 w3-section">
+      <span class="w3-xlarge">1</span><br>
+      Homes Powered
+    </div>
+  </div>
+  <!-- Second Parallax Image with Projects Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">PROJECTS</span>
+    </div>
+  </div>
+
+  <!-- Container (Project Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="projects">
+    <h3 class="w3-center">OUR WORK</h3>
+    <p class="w3-center"><em>Click on the images to make them bigger</em></p><br>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="./assest/images/final/GroundThawHeaters.jpg" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity" alt="Ground Thaw Heaters">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="./assest/images/final/CommercialTP.jpg" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity" alt="Commercial Temporary Power">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="./assest/images/final/480Volt.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="480 Volt Disconnect. -Commercial">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="./assest/images/final/Overhead400.jpg" style="width:80%" onclick="onClick(this)"
+          class="w3-hover-opacity" alt="Overhead 400 Amp 480 Volt 3 phase CT Meter System">
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="./assest/images/final/G1 Bringhurst Sales Trailer - EDGE 4.jpg" style="width:100%"
+          onclick="onClick(this)" class="w3-hover-opacity" alt="Generator Rental, Edge Homes, Utah">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="./assest/images/final/CT Meter Base.jpg" style="width:80%" onclick="onClick(this)"
+          class="w3-hover-opacity" alt="CT Meter Base">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="./assest/images/final/TPS - SS1.jpg" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity" alt="Equipment Rental">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="./assest/images/carousel/HSFarm.jpg" style="width:100%" onclick="onClick(this)"
+          class="w3-hover-opacity" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+        class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+    </div>
+  </div>
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">ABOUT US</h3>
+    <p class="w3-center"><em>“Temporary Power Services was the first company of its kind in Utah. It has been locally
+        owned and operated since 1993. It has become the largest temporary power provider due
+        to the reliable, secure and low cost services that have been provided to thousands of
+
+        construction projects in Utah and the surrounding states. We take pride in knowing we
+        have helped build Utah’s best homes and buildings using our power services.”</p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <img src="./assest/images/final/TPS_icon.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+          alt="Photo of company" height="200">
+      </div>
+
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>We specialize in supplying power to job sites on time and budget with a secure and reliable power source
+          that can keep up with your construction needs. Our experienced team is responsive and professional. Call us
+          today to schedule your temporary power installation!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fourth Parallax Image with Projects Text -->
+  <div class="bgimg-4 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">LOCATION</span>
+    </div>
+  </div>
+  <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">Get In Touch With Us!</h3>
+    <!-- <p class="w3-center"><em>We want your feedback!</em></p> -->
+
+    <div class="w3-row w3-padding-32 w3-section">
+      <div class="w3-col m4 w3-container">
+        <img src="./assest/images/map.png" class="w3-image w3-round" style="width:100%">
+      </div>
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a
+            href="https://www.google.com/maps/place/2250+1300+W+Suite+E,+West+Valley+City,+UT+84119/@40.7212051,-111.9269949,16z/data=!4m5!3m4!1s0x87528b4a14455997:0x2b3d8e5b03d18687!8m2!3d40.7222134!4d-111.9296127"
+            title="2250 1300 W Suite E, West Valley City, UT 84119" class="w3-hover-text-green">2250 1300 W Suite E,
+            West Valley City, UT 84119</a></p>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> UT (801) 501-7730<br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> CO (720) 926-6954<br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+          TPS@temporarypowerservices.com<br>
+          <i class="fa fa-id-card fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Contractor License:
+          6141071-5501<br>
         </div>
-        <div class="w3-col m8 w3-panel">
-          <div class="w3-large w3-margin-bottom">
-            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><a
-              href="https://www.google.com/maps/place/2250+1300+W+Suite+E,+West+Valley+City,+UT+84119/@40.7212051,-111.9269949,16z/data=!4m5!3m4!1s0x87528b4a14455997:0x2b3d8e5b03d18687!8m2!3d40.7222134!4d-111.9296127"
-              title="2250 1300 W Suite E, West Valley City, UT 84119" class="w3-hover-text-green">2250 1300 W Suite E,
-              West Valley City, UT 84119</a></p>
-            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> UT (801) 501-7730<br>
-            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> CO (720) 926-6954<br>
-            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-            TPS@temporarypowerservices.com<br>
-            <i class="fa fa-id-card fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Contractor License:
-            6141071-5501<br>
-          </div>
-          <p>Get a quote or leave me us a message</p>
-          <form action="/action_page.php" target="_blank">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            <div class="w3-row-padding" style="margin:8px -16px 8px -16px">
-              <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Phone" required name="Phone">
-              </div>
-              <div class="w3-half">
-                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-              </div>
+        <p>Get a quote or leave me us a message</p>
+        <form action="/action_page.php" target="_blank">
+          <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          <div class="w3-row-padding" style="margin:8px -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Phone" required name="Phone">
             </div>
-            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-            <button class="w3-button w3-black w3-right w3-section" type="submit">
-              <i class="fa fa-paper-plane"></i> SEND MESSAGE
-            </button>
-          </form>
-        </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-right w3-section" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </form>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-      <div class="w3-xlarge w3-section">
-        <a href="https://www.facebook.com/tps2006/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-      </div>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="thodinllc.com" target="_blank"
-          class="w3-hover-text-green">Thodin, LLC</a></p>
-    </footer>
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.facebook.com/tps2006/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="thodinllc.com" target="_blank"
+        class="w3-hover-text-green">Thodin, LLC</a></p>
+  </footer>
 
-    <script>
-      // Modal Image Gallery
-      function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        var captionTitle = document.getElementById("title");
-        captionText.innerHTML = element.alt;
+  <script>
+
+    //Carousel pictures
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
       }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 3000); // Change image every 2 seconds
+    }
 
-      // Change style of navbar on scroll
-      window.onscroll = function () { myFunction() };
-      function myFunction() {
-        var navbar = document.getElementById("myNavbar");
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-        } else {
-          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-        }
-      }
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      var captionTitle = document.getElementById("title");
+      captionText.innerHTML = element.alt;
+    }
 
-      // Used to toggle the menu on small screens when clicking on the menu button
-      function toggleFunction() {
-        var x = document.getElementById("navDemo");
-        if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
-        } else {
-          x.className = x.className.replace(" w3-show", "");
-        }
+    // Change style of navbar on scroll
+    window.onscroll = function () { myFunction() };
+    function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+      } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
       }
-    </script>
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
 
 </body>
 
