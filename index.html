@@ -65,7 +65,7 @@
 
   /* Third image (Contact) */
   .bgimg-4 {
-    background-image: url("./assest/images/construction_arial.jpg");
+    background-image: url("./assest/images/carousel/HSFarm.jpg");
     min-height: 400px;
   }
 
@@ -126,7 +126,7 @@
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container" id="home">
     <div class="inner">
-      <div class="w3-display-middle" style="background: rgba(255,255,255,0.5);border-radius: 8px;">
+      <div class="w3-display-middle" style="background: rgba(255,255,255,0.5);border-radius: 50px;">
 
         <span class="w3-center">
           <picture>
@@ -147,7 +147,7 @@
     <!-- Service List -->
       <div class="w3-col m3 w3-margin-bottom">
         <div class="w3-light-grey">
-          <img src="./assest/images/carousel/FuelTruck.jpg" alt="Fuel" style="width: 100%">
+          <img src="./assest/images/final/FuelTruck.jpg" alt="Fuel" style="width:100%" >
           <div class="w3-container">
             <h3>Fueling</h3>
             <p>Temporary Power Services offers fuel service delivery when and where you need it. Having years of
@@ -207,25 +207,29 @@
     </div>
 
     <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-      <div class="w3-quarter w3-section">
+      <div class="w3-col m2 w3-section">
         <span class="w3-xlarge">31+</span><br>
         Partners
       </div>
-      <div class="w3-quarter w3-section">
+      <div class="w3-col m2 w3-section">
         <span class="w3-xlarge">55+</span><br>
         Projects Done In UT
       </div>
-      <div class="w3-quarter w3-section">
+      <div class="w3-col m2 w3-section">
         <span class="w3-xlarge">89+</span><br>
         Projects Done In CO
       </div>
-      <div class="w3-quarter w3-section">
+      <div class="w3-col m2 w3-section">
         <span class="w3-xlarge">150+</span><br>
         Fuel Tanks
       </div>
-      <div class="w3-quarter w3-section">
+      <div class="w3-col m2 w3-section">
         <span class="w3-xlarge">150K+</span><br>
         Gallons Refuel
+      </div>
+      <div class="w3-col m2 w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Homes Powered
       </div>
     </div>
     <!-- Second Parallax Image with Projects Text -->
@@ -281,7 +285,7 @@
 
         <div class="w3-col m3">
           <img src="./assest/images/carousel/HSFarm.jpg" style="width:100%" onclick="onClick(this)"
-            class="w3-hover-opacity" alt="Residential Temporary Power - Edge Homes - Lehi, UT">
+            class="w3-hover-opacity" alt="">
         </div>
       </div>
     </div>
@@ -327,7 +331,7 @@
     </div>
 
     <!-- Fourth Parallax Image with Projects Text -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="bgimg-4 w3-display-container w3-opacity-min">
       <div class="w3-display-middle">
         <span class="w3-xxlarge w3-text-white w3-wide">LOCATION</span>
       </div>
@@ -357,8 +361,7 @@
           <p>Get a quote or leave me us a message</p>
           <form action="/action_page.php" target="_blank">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-
+            <div class="w3-row-padding" style="margin:8px -16px 8px -16px">
               <div class="w3-half">
                 <input class="w3-input w3-border" type="text" placeholder="Phone" required name="Phone">
               </div>
@@ -380,7 +383,6 @@
       <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
       <div class="w3-xlarge w3-section">
         <a href="https://www.facebook.com/tps2006/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
       </div>
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="thodinllc.com" target="_blank"
           class="w3-hover-text-green">Thodin, LLC</a></p>
@@ -392,6 +394,7 @@
         document.getElementById("img01").src = element.src;
         document.getElementById("modal01").style.display = "block";
         var captionText = document.getElementById("caption");
+        var captionTitle = document.getElementById("title");
         captionText.innerHTML = element.alt;
       }
 
